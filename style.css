@@ -1,14 +1,4 @@
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 10px;
-  margin: 0;
-  height: 15px; /* exemplo de altura do header */
-}
-
-
+/* ---------- Layout geral ---------- */
 body {
     color: #cccccc;
     background-color: #121212;
@@ -20,7 +10,7 @@ body {
 }
 
 .prgf {
-    padding-bottom: 20px;
+    padding-bottom: 2%;
 }
 
 .img {
@@ -29,6 +19,55 @@ body {
 
 .link {
   color: #cccccc;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
+/* ---------- Menu normal (PC) ---------- */
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin: 0;
+  height: 15px;
+}
+
+.menu-btn {
+  font-size: 24px;
+  color: #cccccc;
+  cursor: pointer;
+  display: none; /* escondido no PC */
+}
+
+/* Esconde o checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* ---------- Responsivo (Celular) ---------- */
+@media (max-width: 768px) {
+  /* Botão aparece no celular */
+  .menu-btn {
+    display: block;
+    padding: 10px;
+  }
+
+  /* Menu fica escondido por padrão */
+  nav {
+    display: none;
+    background-color: #1e1e1e;
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  /* Quando o checkbox está marcado, mostra o menu */
+  #menu-toggle:checked + .menu-btn + nav {
+    display: block;
+  }
+}
