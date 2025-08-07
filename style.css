@@ -23,6 +23,10 @@ body {
     padding-bottom: 20px;
 }
 
+.img {
+    padding-bottom: 20px;
+}
+
 .link {
   color: #cccccc;
   text-decoration:underline;
