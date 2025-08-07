@@ -23,7 +23,7 @@ body {
 }
 
 /* ---------- Menu normal (PC) ---------- */
-ul {
+nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -47,17 +47,14 @@ ul {
 
 /* ---------- Responsivo (Celular) ---------- */
 @media (max-width: 768px) {
-  /* Botão aparece no celular */
   .menu-btn {
     display: block;
     padding: 10px;
   }
 
-  /* Menu fica escondido por padrão */
+  /* Esconde o menu por padrão no celular */
   nav {
     display: none;
-    background-color: #1e1e1e;
-    padding: 10px;
   }
 
   nav ul {
