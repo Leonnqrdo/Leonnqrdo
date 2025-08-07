@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin: 0;
+  height: 15px; /* exemplo de altura do header */
+}
+
+
+body {
+    color: #cccccc;
+    background-color: #121212;
+    margin: 16px;
+}
+
+.sessao {
+    padding-top: 20px;
+}
+
+.prgf {
+    padding-bottom: 20px;
+}
+
+.link {
+  color: #cccccc;
+  text-decoration:underline;
+}
+
