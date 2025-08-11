@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonnqrdo.online</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+  /* Padrão: PC aparece, Mobile some */
+  .cell { display: none; }
+
+  /* Quando a tela for até 768px: só Mobile aparece */
+  @media (max-width: 768px) {
+    .pc { display: none; }
+    .cell { display: block; }
+  }
+</style>
 </head>
 <body>
+<div class="pc">
 <header> <!-- Cabeçalho (espaço "em branco" no topo) -->
     <nav>
         <ul class="Cabesa"> <!-- Lista -->
@@ -32,5 +43,15 @@
         <li><h4>My projects</h4></li>
         <li><h4>So much more!</h4></li>
     </ul>
+</div>  
+<div class="cell">
+
+
+
+
+
+
+
+</div>
 </body>
 </html>
