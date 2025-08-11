@@ -24,6 +24,7 @@
   padding-top: 10px;
   margin: 0;
   height: 15px; /* exemplo de altura do header */
+  gap: 20px;
 }
 
 
