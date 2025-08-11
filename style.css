@@ -1,3 +1,11 @@
+.cell { display: none; }
+
+@media (max-width: 768px) {
+  .pc { display: none; }
+  .cell { display: block; }
+}
+
+
 .Cabesa {
   list-style-type: none;
   display: flex;
