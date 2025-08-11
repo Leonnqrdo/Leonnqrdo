@@ -8,6 +8,16 @@
   height: 15px; /* exemplo de altura do header */
 }
 
+.Cabesa2 {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin: 0;
+  height: 15px; /* exemplo de altura do header */
+}
+
 
 body {
     color: #cccccc;
@@ -19,12 +29,16 @@ body {
     padding-top: 20px;
 }
 
+.sessao2 {
+    padding-top: 20px;
+}
+
 .prgf {
     padding-bottom: 2%;
 }
 
-.img {
-    padding-bottom: 40px;
+.prgf2 {
+    padding-bottom: 2%;
 }
 
 .link {
@@ -32,3 +46,7 @@ body {
   text-decoration:underline;
 }
 
+.link2 {
+  color: #cccccc;
+  text-decoration:underline;
+}
